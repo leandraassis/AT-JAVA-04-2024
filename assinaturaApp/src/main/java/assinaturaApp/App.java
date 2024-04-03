@@ -8,6 +8,7 @@ import spark.Spark;
 
 public class App {
 	public static void main(String[] args) {
+		
 		//populando listas com objetos padrao para que não estejam vazias ao iniciar o projeto
 		//para adicionar mais, usar a rota incluir no postman
 		UsuarioService.incluir(new Usuario());
